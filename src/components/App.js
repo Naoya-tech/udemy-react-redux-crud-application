@@ -28,4 +28,4 @@ const mapStateToProps = state => ( { value: state.count.value } )
 // })
 const mapDispatchToProps = state => ({ increment, decrement })
 
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(mapStateToProps, mapDispatchToProps)(App) 
