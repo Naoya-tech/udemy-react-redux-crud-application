@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { READ_EVENTS   } from '../actions'
+import { READ_EVENTS } from '../actions'
 
 export default (events = {}, action) => {
   switch (action.type) {
